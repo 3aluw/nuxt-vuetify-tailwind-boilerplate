@@ -17,7 +17,10 @@
     "nuxt": "^3.3.2"
   },
   "dependencies": {
+    "@mdi/font": "^7.1.96",
     "@pinia/nuxt": "^0.4.7",
-    "pinia": "^2.0.33"
+    "pinia": "^2.0.33",
+    "sass": "^1.60.0",
+    "vuetify": "^3.1.4"
   }
 }
