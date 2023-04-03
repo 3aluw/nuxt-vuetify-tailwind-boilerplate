@@ -13,4 +13,4 @@ This is a boilerplate for Nuxt 3, designed to help you quickly jump-start your p
 
 [Pinia persistance](https://prazdevs.github.io/pinia-plugin-persistedstate/) : a module to persist Pinia's state on page refresh
 ## How to use ?
-Clone this repo, install dependencies then delete the index.vue and start creating your pages. 
+Clone this repo, install dependencies then delete index.vue and start creating your pages. 
