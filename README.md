@@ -1,42 +1,16 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt 3 boilerplate
 
-## Setup
+This is a boilerplate for Nuxt 3, designed to help you quickly jump-start your project as it has some essential modules.
 
-Make sure to install the dependencies:
 
-```bash
-# yarn
-yarn install
+## modules
+[Vuetify](https://vuetifyjs.com/) : A component library
 
-# npm
-npm install
+[tailwind](https://tailwindcss.nuxtjs.org/): the well-known CSS framework
 
-# pnpm
-pnpm install
-```
+[Pinia](https://pinia.vuejs.org/) : the new vue store
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[Pinia persistance](https://prazdevs.github.io/pinia-plugin-persistedstate/) : a module to persist Pinia's state on page refresh
+## How to use ?
+Clone this repo, install dependencies then delete the index.vue and start creating your pages. 
