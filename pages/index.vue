@@ -29,16 +29,25 @@
                     </div>
                 </div>
                 <div
-                    class="lg:min-h-min sm:min-h-[220px] md:min-h-[180px] col-span-2 sm:col-span-1 lg:col-span-6 text-black dark:text-white rounded-xl modules-container relative items-center justify-center border border-gray-200 dark:border-transparent hover:border-transparent">
+                    class="lg:min-h-min sm:min-h-[500px] md:min-h-[180px] col-span-2 sm:col-span-1 lg:col-span-6 text-black dark:text-white rounded-xl modules-container relative items-center justify-center border border-gray-200 dark:border-transparent hover:border-transparent p-5">
                     <div class="gradient-border gradient-border-modules gradient-border-rect"></div>
                     <div
                         class="modules-gradient-right absolute right-0 inset-y-0 w-[20%] bg-gradient-to-l to-transparent from-yellow-400 rounded-xl z-1 transition-opacity duration-300">
                     </div>
-                    <div class="flex flex-col space-y text-black dark:text-white">
+                    <div class="flex flex-col space-y text-black dark:text-white ">
                         <h3 class="font-semibold text-xl p-4">Modules</h3>
-                        <p class="text-gray-700 dark:text-gray-300 p-4">I have added some essential nuxt modules such as
-                            <a href=""></a>
-
+                        <p class="text-gray-700 dark:text-gray-300  ">I have added some essential nuxt modules such as :
+                        <p class="text-lg hover:text-green-500"><a href="https://vuetifyjs.com/"
+                                rel="noopener noreferrer">Vuetify</a></p>
+                        <p class="text-lg hover:text-green-500"><a href="https://tailwindcss.nuxtjs.org/"
+                                rel="noopener noreferrer">tailwind</a>
+                        </p>
+                        <p class="text-lg hover:text-green-500"><a href="https://pinia.vuejs.org/"
+                                rel="noopener noreferrer">Pinia</a></p>
+                        <p class="text-lg hover:text-green-500"><a
+                                href="https://prazdevs.github.io/pinia-plugin-persistedstate/"
+                                rel="noopener noreferrer">Pinia
+                                persistance</a></p> ( to activate it, uncomment persist block in the store)
                         </p>
                     </div>
 
@@ -92,5 +101,4 @@
                 </div>
             </div>
         </footer>
-    </div>
-</template>
+</div></template>
