@@ -39,6 +39,8 @@
                         <p class="text-gray-700 dark:text-gray-300  ">I have added some essential nuxt modules such as :
                         <p class="text-lg hover:text-green-500"><a href="https://vuetifyjs.com/"
                                 rel="noopener noreferrer">Vuetify</a></p>
+                        <p class="text-lg hover:text-green-500"><a href="https://vueuse.org/"
+                                rel="noopener noreferrer">VueUse</a></p>
                         <p class="text-lg hover:text-green-500"><a href="https://tailwindcss.nuxtjs.org/"
                                 rel="noopener noreferrer">tailwind</a>
                         </p>
@@ -47,7 +49,7 @@
                         <p class="text-lg hover:text-green-500"><a
                                 href="https://prazdevs.github.io/pinia-plugin-persistedstate/"
                                 rel="noopener noreferrer">Pinia
-                                persistance</a></p> ( to activate it, uncomment persist block in the store)
+                                persistance</a></p> ( to activate it, uncomment the "persist block" in the store)
                         </p>
                     </div>
 
