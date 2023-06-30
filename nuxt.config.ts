@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ['vuetify/lib/styles/main.sass','@mdi/font/css/materialdesignicons.min.css',],
-    modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt','@nuxtjs/tailwindcss',],
+    modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt','@nuxtjs/tailwindcss','@vueuse/nuxt',],
     pinia: {
       autoImports: [
         // automatically imports `defineStore`
