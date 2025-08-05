@@ -46,11 +46,7 @@
                         </p>
                         <p class="text-lg hover:text-green-500"><a href="https://pinia.vuejs.org/"
                                 rel="noopener noreferrer">Pinia</a></p>
-                        <p class="text-lg hover:text-green-500"><a
-                                href="https://prazdevs.github.io/pinia-plugin-persistedstate/"
-                                rel="noopener noreferrer">Pinia
-                                persistance</a></p> ( to activate it, uncomment the "persist block" in the store)
-                        </div>
+                    </div>
                     </div>
 
                 </div>

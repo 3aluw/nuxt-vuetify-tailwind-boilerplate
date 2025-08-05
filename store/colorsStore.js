@@ -11,10 +11,7 @@ const count = 0;
    count
   };
 },
-/* Enable this to persist this store : more info : https://prazdevs.github.io/pinia-plugin-persistedstate/frameworks/nuxt-3.html
-{
-  persist: true}
-*/
+
 );
 
 if (import.meta.hot) {
