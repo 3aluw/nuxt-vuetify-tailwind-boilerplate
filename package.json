@@ -13,14 +13,13 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
     "@vueuse/core": "^10.2.1",
     "@vueuse/nuxt": "^10.11.0",
     "nuxt": "^3.12.4"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "@pinia/nuxt": "^0.4.11",
+    "@pinia/nuxt": "^0.5.0",
     "pinia": "^2.2.0",
     "sass": "^1.77.8",
     "vuetify": "^3.6.14"

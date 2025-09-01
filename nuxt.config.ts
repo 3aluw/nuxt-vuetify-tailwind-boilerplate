@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ['vuetify/lib/styles/main.sass','@mdi/font/css/materialdesignicons.min.css',],
-  modules: ['@pinia/nuxt', '@pinia-plugin-persistedstate/nuxt','@nuxtjs/tailwindcss','@vueuse/nuxt',],
+  modules: ['@pinia/nuxt','@nuxtjs/tailwindcss','@vueuse/nuxt',],
 
   pinia: {
     autoImports: [
@@ -18,7 +18,9 @@ transpile: ['vuetify'],
   vite: {
     define: {
       'process.env.DEBUG': false,
-    },
+    },server:{
+        allowedHosts: true,
+    }
   },
 
   compatibilityDate: '2024-08-01',
